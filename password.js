@@ -9,4 +9,8 @@ var arrayOfPasswords = new Array()
 for(var i = 0; i < numberOfPasswords; i++){
 
 }
+
+arrayOfPasswords.forEach(function(passsword){
+  console.log(element)
+});
 process.exit(0)
