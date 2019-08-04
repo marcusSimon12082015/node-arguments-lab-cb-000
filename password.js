@@ -4,6 +4,8 @@ process.argv.shift()
 var length = process.argv.shift()
 var numberOfPasswords = process.argv.shift()
 
+var arrayOfPasswords = new Array()
+
 for(var i = 0; i < numberOfPasswords; i++){
 
 }
