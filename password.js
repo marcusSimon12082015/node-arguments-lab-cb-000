@@ -7,7 +7,7 @@ var numberOfPasswords = process.argv.shift()
 var arrayOfPasswords = new Array()
 
 for(var i = 0; i < numberOfPasswords; i++){
-  
+
 }
 
 arrayOfPasswords.forEach(function(passsword){
