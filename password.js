@@ -7,11 +7,11 @@ var numberOfPasswords = process.argv.shift()
 var arrayOfPasswords = new Array()
 
 for(var i = 0; i < numberOfPasswords; i++){
-
+  var newPassword = ""
+  for(var j = 0; j < length; j++){
+    newPassword += Math.floor(Math.random() * length);
+  }
+  console.log(newPassword)
 }
-
-arrayOfPasswords.forEach(function(passsword){
-  console.log(element)
-});
 
 process.exit(0)
